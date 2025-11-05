@@ -163,6 +163,23 @@ app.get('/', (req, res) => {
             .api-link:hover {
                 text-decoration: underline;
             }
+            .official-link {
+                margin-top: 20px;
+                padding: 10px;
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+                text-align: center;
+            }
+            .official-link a {
+                color: #667eea;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.1em;
+            }
+            .official-link a:hover {
+                text-decoration: underline;
+            }
             footer {
                 margin-top: 30px;
                 font-size: 0.9em;
@@ -176,7 +193,7 @@ app.get('/', (req, res) => {
             <p>Running smoothly on Port ${PORT}!</p>
             
             <div class="info-grid">
-             <div class="info-card">
+            <div class="info-card">
                     <h3>Username</h3>
                     <p>ys1234</p>
                 </div>
@@ -213,6 +230,9 @@ app.get('/', (req, res) => {
                         <h4><a href="#" class="api-link" onclick="alert('Use DELETE /kv/:key to delete the key')">DELETE /kv/:key</a></h4>
                         <p>Delete a key-value pair (replace with your key).</p>
                     </div>
+                </div>
+                <div class="official-link">
+                    <a href="https://wispbyte.com/client" target="_blank">Wispbyte - Console</a>
                 </div>
             </div>
             

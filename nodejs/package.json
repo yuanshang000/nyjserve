@@ -1,0 +1,19 @@
+{
+  "name": "wispbyte-node-service",
+  "version": "1.0.0",
+  "description": "轻量 REST API + 健康检查 + 内存 KV",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "npm": "^11.6.2",
+    "pino": "^9.2.0",
+    "start": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
